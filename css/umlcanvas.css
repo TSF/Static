@@ -1,0 +1,290 @@
+BODY {
+  font: 80% arial, helvetica, sans-serif;
+  background-image: url("http://static.thesoftwarefactory.be/images/background-tsf-corner-large.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+IMG {
+  border: 0px;
+}
+
+TEXTAREA {
+  font-family: courier;
+  font-size: 10pt;
+}
+
+A { 
+  color:#333; 
+}
+
+A:hover { 
+  color:#F3A662; 
+}
+
+H1 {
+    font: 150% arial,helvetica,sans-serif;
+    color:#F3A662; 
+}
+
+H2 {
+    font:125% arial,helvetica,sans-serif;
+    color:#808184; 
+}
+
+H3 {
+    font:100% arial,helvetica,sans-serif;
+    color:#777;   
+}
+
+DIV#header {
+  height: 75px; 
+}
+
+DIV#header H2 {
+  position: relative;
+  top: -20px;
+  left: +25px;
+  width: 300px;
+}
+
+DIV#footer {
+    font: 60% arial, helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+DIV#footer #pageinfo {
+  float: right;
+  color: #cccccc;
+  font-size: 8pt;
+  padding: 15px;
+}
+
+DIV#footer #logo {
+    float: left;
+    padding-right: 15px;
+}
+
+DIV#footer #links {
+    padding-top: 15px;
+}
+
+DIV#footer #links LI { 
+    display: inline; 
+    float: left; 
+    margin: 0 0 0 1.2em; 
+}
+
+/* buttons */
+
+SPAN.button A {
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; /* Links */
+}
+
+SPAN.wide.button A {
+  width: auto;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+SPAN.button A:hover {
+    background-color:#cdcdcd;
+    border:1px solid #898989;
+}
+
+SPAN.button A:active {
+    background-color:#565656;
+    border:1px solid #565656;
+    color: #fff;
+}
+
+SPAN.button.positive A {
+    color:#529214;
+}
+
+SPAN.button.positive A:hover {
+    background-color:#E6EFC2;
+    border:1px solid #C6D880;
+    color:#529214;
+}
+
+SPAN.button.positive A:active {
+    background-color:#529214;
+    border:1px solid #529214;
+    color:#fff;
+}
+
+SPAN.button.negative A {
+    color:#AD1B1A;
+}
+
+SPAN.button.negative A:hover {
+    background-color:#FFBFBF;
+    border:1px solid #AD1B1A;
+    color:#AD1B1A;
+}
+
+SPAN.button.negative A:active {
+    background-color:#AD1B1A;
+    border:1px solid #AD1B1A;
+    color:#fff;
+}
+
+/* Wiki support */
+#editorControls {
+  background-color: #eee;
+  position: absolute;
+  padding: 5px;
+  right: 0px;
+  top: 0px;
+}
+
+#page {
+  width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro TABLE {
+  width: 100%;
+}
+
+#intro TD.box {
+  width: 270px;
+  height: 440px;
+  vertical-align: top;
+  background-color: #eee;
+}
+
+#intro TD.box h1 {
+  padding-left: 10px;
+}
+
+#intro TD.box P.text {
+  height: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;  
+}
+
+#intro TD.box SPAN.get {
+  margin-right: 10px;
+  float:right;
+}
+
+#intro TD.box SPAN.more {
+  margin-left: 10px;
+  float: left;
+}
+
+#intro TD.box IMG {
+  margin: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/* Navigation */
+
+DIV.sitemap {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ffffee;
+}
+
+DIV.navigation {
+  margin-left: 10px;  
+}
+
+DIV.sitemap UL,
+DIV.navigation UL {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+DIV.sitemap LI,
+DIV.navigation LI {
+  list-style-type: none;
+  font-size: 85%;
+  color: #777;  
+  padding: 0px;
+  margin-bottom: 8px;
+}
+
+/* styling */
+
+PRE.code {
+  border-left: 5px solid #fa0;
+  background-color: #ffe;
+  padding: 5px;
+  padding-left: 10px;
+  font-family: courier;
+  color: #777;
+}
+
+/* Mediawiki Corrections */
+
+.editsection { 
+  display:none;
+}
+
+/* Gallery on HuC */
+
+.gallery TH {
+  background-color: #ddd;
+}
+.gallery TD {
+  text-align: center;
+  vertical-align: top;
+  background-color: #eee;
+}
+
+.gallery TD.left {
+  text-align: left;
+}
+
+/* Properties on HuC */
+.properties {
+  width:  100%;
+}
+
+.properties TH {
+  width: 100px;
+  padding: 5px;
+  text-align:right;
+}
+.properties TD {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.properties TD INPUT {
+  width: 99%;
+}
+
+.properties TD.size INPUT {
+  width: 30px;
+}
+
+.properties TEXTAREA {
+  width: 100%;
+}
+

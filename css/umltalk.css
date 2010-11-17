@@ -1,0 +1,198 @@
+/* general overrides for default TSF design */
+BODY {
+  background-image: url("http://static.thesoftwarefactory.be/images/background-tsf-application-corner-large.png");
+}
+
+INPUT.button {
+  background-color: #993333;
+  border: 1px solid #660000;
+  color: white;
+}
+
+H1 {
+  color: #993333; 
+}
+
+A:hover {
+  color: #933;
+}
+
+/* UmlTalk specific */
+
+/* a summary shows a preview of the initial post of a talk */
+DIV.summary {
+  float:left;
+  border-bottom: 1px dotted #aaa;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+DIV.summary DIV.postPreview {
+  float: left;
+  width: 759px;
+}
+
+DIV.summary DIV.postPreview H2 {
+  margin: 5px;
+}
+
+DIV.summary DIV.postPreview H2 A {
+  text-decoration: none;
+}
+
+DIV.summary DIV.postPreview H2 A:hover {
+  text-decoration: underline;
+}
+
+DIV.summary DIV.postPreview DIV.previewLink {
+ float: right;
+}
+
+DIV.summary DIV.postPreview DIV.body {
+  padding: 5px;
+}
+
+DIV#preview {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #777;
+  text-align:right;
+  padding: 5px;
+}
+
+DIV.start {
+  float: right; 
+}
+
+DIV.tags {
+  padding-left: 5px;
+}
+
+DIV.tags A {
+  text-align: center;
+  display: inline-block;
+  background-color: #f5f5f5;
+  border: 1px solid #dedede;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 130%;
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+  padding: 2px;
+}
+
+DIV.tags A:hover {
+  border-color: #b55;
+  color: #933;
+  background-color: #ebb;
+}
+
+DIV.post {
+  float:left;
+}
+
+DIV.post DIV.body {
+  float:left;
+  width: 700px;
+  padding-bottom: 15px;
+}
+
+DIV.body DIV.diagram {
+  float: right; 
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+DIV.votesContainer {
+  text-align: center;
+  font-size: 120%;
+  color: #777;
+  padding-bottom: 15px;
+}
+
+DIV.preview {
+  float: left;
+  width: 858px;
+  padding: 5px;
+  border: 1px dotted #777; 
+}
+
+DIV.wmd-preview PRE {
+  border-left: 5px solid #fa0;
+  background-color: #ffe;
+  padding: 5px;
+  padding-left: 10px;
+  font-family: courier;
+  color: #777;
+}
+
+TEXTAREA#UmlCanvasEditorSource {
+  margin-left: 10px; 
+}
+
+/* reuseables */
+DIV.statsContainer {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+DIV.stats {
+  float: left;
+  width: 40px;
+  margin: 5px 5px 5px 0px;
+  padding: 2px;
+  background-color: #ddd;
+}
+
+DIV.count {
+  height: 25px;
+  font-size: 190%;
+  font-weight: bold;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+DIV.label {
+  text-align: center;
+}
+
+DIV.stats.with.replies {
+  background-color: #339933;
+}
+
+DIV.stats.replies {
+  color: white;
+}
+
+DIV.stats.without.replies {
+  background-color: #993333;
+}
+
+DIV.stats.views,
+DIV.stats.favorites {
+  clear: both;
+  background-color: white;
+  width: 90px; 
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 2px;
+  padding-bottom: 0px;
+  color: #777;
+}
+
+DIV.stats.views DIV.count,
+DIV.stats.favorites DIV.count {
+  display: inline-block;
+  font-size: 120%; 
+}
+
+DIV.stats.views DIV.label,
+DIV.stats.favorites DIV.label {
+  display: inline-block;
+}

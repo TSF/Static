@@ -1,0 +1,241 @@
+BODY {
+  font:80% arial,helvetica,sans-serif;
+  margin: 25px;
+  margin-left : 50px; 
+  margin-right: 80px;
+}
+
+IMG {
+  border: 0px;
+}
+
+A { 
+  color:#333; 
+}
+
+A:hover { 
+  color:#F3A662; 
+}
+
+.badge {
+  position: absolute;
+  z-index: -1;
+  top:0px;
+  right:0px;
+  font-size: 0px; line-height: 0%; width: 0px;
+  border-top: 150px solid #F3A662;
+  border-left: 150px solid white;
+}
+
+.badge-content {
+  color: white;
+  font: 150% Arial;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+}
+
+#myGallery {
+    width: 800px !important;
+    height: 300px !important;
+    border: 0px;
+} 
+
+DIV#carousel {
+    width: 950px;
+    margin-bottom: 10px;
+}
+
+#tabs {
+    width: 130px;
+    float: left;
+    margin-right: 10px;
+}
+
+DIV#carousel #tabs IMG {
+    margin-bottom: 13px;
+}
+
+DIV.content {
+  width: 920px;
+}
+
+DIV#news {
+    padding: 10px;
+    width: 920px;
+    background-color: rgb(235,235,235);
+}
+
+H1 {
+    font: 150% arial,helvetica,sans-serif;
+    color:#F3A662; 
+}
+
+H2 {
+    font:125% arial,helvetica,sans-serif;
+    color:#808184; 
+}
+
+DIV#footer {
+    font: 60% arial, helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+DIV#footer DIV#validation {
+    float:right;
+}
+
+DIV#header {
+    margin-bottom: 10px;
+}
+
+DIV#header DIV#search { 
+    position:absolute; 
+    top:45px; 
+    right:30px;
+}
+
+DIV#header DIV#search INPUT { 
+    width:150px; 
+}
+
+DIV#header UL.nav { 
+    position: absolute; 
+    top: 50px;
+    left: 115px; 
+    margin: 0px; 
+}
+
+DIV#header UL.nav LI { 
+    display: inline; 
+    float: left; 
+    margin: 0 0 0 1.2em; 
+}
+
+DIV.banner {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: #ffffee;
+  margin-bottom: 10px;
+} 
+
+INPUT.text, INPUT.pass {
+  border: 1px solid #888;
+}
+
+INPUT.button {
+  background-color: #F3A662;
+  border: 1px solid #e29551;
+  color: white;
+}
+
+DIV.login {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #888;
+}
+
+DIV.login A {
+  color: #888;
+}
+
+DIV.login DIV.options {
+  text-align: right; 
+}
+
+DIV#goBackHome {
+  float: right;
+}
+
+DIV#goBackHome IMG {
+  vertical-align: middle;
+}
+
+/* WebMessages */
+
+#messages DIV {
+  text-align: left;
+  border: 2px solid #ccc;
+  background-color: #eee;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+  
+#messages .success {
+  border-color: #8f8;
+  background-color: #cfc;
+}
+
+#messages .error {
+  border-color: #f88;
+  background-color: #fcc;
+}
+
+#messages .warning {
+  border-color: #ff8;
+  background-color: #ffc;
+}
+
+#messages .info {
+  border-color: #88f;
+  background-color: #ccf;
+}
+
+#messages .closed {
+  display: none;
+}
+
+#messages .close {
+  float: right;
+}
+
+#messages .close A {
+  color: #999;
+}
+
+/* Form validation */
+.validating {
+  background-image: url(http://static.thesoftwarefactory.be/images/spinner.gif);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.failedvalidation {
+  background-image: none;
+  background-color: #ffa;
+  border: 2px solid orange;  
+}
+
+INPUT.invalid {
+  background-image: none;
+  background-color: #faa;
+  border: 2px solid red;  
+}
+
+SPAN.invalid {
+  color: #faa;
+}
+
+SPAN.valid {
+  color: #afa;
+  font-weight: bold;
+}
+
+.messagebox {
+    border: 1px solid #aaa;
+    background-color: #f9f9f9;
+    width: 80%;
+    margin: 0 auto 1em auto;
+    padding: .2em;
+}
+
+/* general purpose classes */
+.action {
+  cursor: pointer;
+}
+

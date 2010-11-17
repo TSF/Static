@@ -1,0 +1,19 @@
+/* general overrides for default TSF design */
+BODY {
+  background-image: url("http://static.thesoftwarefactory.be/images/background-tsf-application-corner-large.png");
+}
+
+INPUT.button {
+  background-color: #993333;
+  border: 1px solid #660000;
+  color: white;
+}
+
+H1 {
+  color: #993333; 
+}
+
+A:hover {
+  color: #933;
+}
+
